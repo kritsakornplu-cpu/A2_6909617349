@@ -1,6 +1,6 @@
+
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
     background-color: #f5f5f5;
     color: #333;
 }
@@ -8,20 +8,10 @@ body {
 header {
     background-color: #2f5d8a;
     color: white;
-    text-align: center;
-    padding: 30px;
-}
-
-main {
-    width: 80%;
-    max-width: 800px;
-    margin: 30px auto;
 }
 
 section {
     background-color: white;
-    padding: 25px;
-    margin-bottom: 20px;
     border-radius: 10px;
 }
 
@@ -30,10 +20,9 @@ h2 {
 }
 
 img {
-    width: 180px;
+    max-width: 100%;
+    height: auto;
     border-radius: 10px;
-    display: block;
-    margin: auto;
 }
 
 li {
@@ -47,6 +36,4 @@ a {
 footer {
     background-color: #333;
     color: white;
-    text-align: center;
-    padding: 10px;
 }
